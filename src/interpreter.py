@@ -1,0 +1,15 @@
+tokens = {
+    "🔛": "CODE_START",
+    "🛑": "CODE_END",
+    "💦": "COMMAND_END",
+    "✍️": "ASSIGNMENT",
+    "➕": "SUM",
+    "➖": "SUBTRACTION",
+    "‼️": "ASSIGN_ZERO",
+    "➡️": "RIGHT",
+    "⬅️": "LEFT",
+    "🍆": "PRINT_NUMBER",
+    "🍑": "PRINT_CHAR",
+    "🤣": "COPY",
+    "💀": "PASTE",
+}
