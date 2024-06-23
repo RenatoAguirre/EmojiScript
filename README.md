@@ -17,21 +17,21 @@ Tambien tenemos una variable para poder almacenar un valor, esta se llama portap
 
 Comandos:
 
-Indica el comienzo del código. 🔛
+Indica el comienzo del código. 🔛\
 Indica el final del código. 🛑\
-indica el termino de un comando 💦
-numeros 1️⃣2️⃣3️⃣4️⃣5️⃣6️⃣7️⃣8️⃣9️⃣0️⃣
-asignar un valor a la posicion (hay que pasarle un numero) ✍️
-Suma a la posicion (hay que pasarle un numero) ➕
-resta a la posicion (hay que pasarle un numero) ➖
-Asigna un cero a la posición actual de la lista. ‼️
-Cambia la posición a la derecha. ➡️
-Cambia la posición a la izquierda. ⬅️
-Muestra por pantalla el número de la posición actual de la lista. (print numero) 🍆
-Muestra por pantalla el caracter correspondiente en UNICODE al número de la posición actual de la lista. print (character) 🍑
-(los print printean en linea)
-Copia el contenido de la posición actual de la lista al portapapeles. 🤣
-Copia el contenido del portapapeles a la posición actual de la lista. 💀
+indica el termino de un comando 💦\
+numeros 1️⃣2️⃣3️⃣4️⃣5️⃣6️⃣7️⃣8️⃣9️⃣0️⃣\
+asignar un valor a la posicion (hay que pasarle un numero) ✍️\
+Suma a la posicion (hay que pasarle un numero) ➕\
+resta a la posicion (hay que pasarle un numero) ➖\
+Asigna un cero a la posición actual de la lista.⛔️\
+Cambia la posición a la derecha. ➡️\
+Cambia la posición a la izquierda. ⬅️\
+Muestra por pantalla el número de la posición actual de la lista. (print numero) 🍆\
+Muestra por pantalla el caracter correspondiente en UNICODE al número de la posición actual de la lista. print (character) 🍑\
+(los print printean en linea)\
+Copia el contenido de la posición actual de la lista al portapapeles. 🤣\
+Copia el contenido del portapapeles a la posición actual de la lista. 💀\
 
 ❓
 
