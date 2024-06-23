@@ -35,36 +35,35 @@ Copia el contenido del portapapeles a la posición actual de la lista. 💀\
 
 ❓
 
-ejemplos:
--suma 1 + 1
-🔛💦 parte el codigo (pos 0)
-✍️1️⃣💦 asigna(1) a la posicion actual;
-➕1️⃣💦 suma(1) a la posicion actual;
-🍆💦 printea el mumero actual
-🛑 termina el codigo
--> 🔛💦✍️1️⃣💦➕1️⃣💦🍆💦🛑 -> linea de codigo entera
-output: 2
+ejemplos:\
+-suma 1 + 1\
+🔛💦 parte el codigo (pos 0)\
+✍️1️⃣💦 asigna(1) a la posicion actual;\
+➕1️⃣💦 suma(1) a la posicion actual;\
+🍆💦 printea el mumero actual\
+🛑 termina el codigo\
+-> 🔛💦✍️1️⃣💦➕1️⃣💦🍆💦🛑 -> linea de codigo entera\
 
--imprimir "hola"
-🔛💦 parte el codigo (pos 0)
-✍️1️⃣0️⃣4️⃣💦 asigna(104) a la posicion actual;
-🍑💦 printeamos el caracter correspondiente en UNICODE al número de la posición actual de la lista en este caso el 104 es una h
+-imprimir "hola"\
+🔛💦 parte el codigo (pos 0)\
+✍️1️⃣0️⃣4️⃣💦 asigna(104) a la posicion actual;\
+🍑💦 printeamos el caracter correspondiente en UNICODE al número de la posición actual de la lista en este caso el 104 es una h\
 ➡️💦 cambia de posicion a la derecha (pos 1);
-✍️1️⃣1️⃣1️⃣💦
-🍑💦 printeamos el caracter correspondiente en UNICODE al número de la posición actual de la lista en este caso el 111 es una o
+✍️1️⃣1️⃣1️⃣💦\
+🍑💦 printeamos el caracter correspondiente en UNICODE al número de la posición actual de la lista en este caso el 111 es una o\
 ➡️💦 cambia de posicion a la derecha (pos2);
-✍️1️⃣0️⃣8️⃣💦
-🍑💦 printeamos el caracter correspondiente en UNICODE al número de la posición actual de la lista en este caso el 108 es una l
+✍️1️⃣0️⃣8️⃣💦\
+🍑💦 printeamos el caracter correspondiente en UNICODE al número de la posición actual de la lista en este caso el 108 es una l\
 ➡️💦 cambia de posicion a la derecha (pos3);
-✍️9️⃣7️⃣💦
-🍑💦 printeamos el caracter correspondiente en UNICODE al número de la posición actual de la lista en este caso el 97 es una a
-🛑 termina el codigo
--> 🔛💦✍️1️⃣0️⃣4️⃣💦🍑💦➡️💦✍️1️⃣1️⃣1️⃣💦🍑💦 ➡️💦 ✍️1️⃣0️⃣8️⃣💦🍑💦➡️💦✍️9️⃣7️⃣💦🍑💦🛑 -> linea de codigo entera
-output: hola
+✍️9️⃣7️⃣💦\
+🍑💦 printeamos el caracter correspondiente en UNICODE al número de la posición actual de la lista en este caso el 97 es una a\
+🛑 termina el codigo\
+-> 🔛💦✍️1️⃣0️⃣4️⃣💦🍑💦➡️💦✍️1️⃣1️⃣1️⃣💦🍑💦 ➡️💦 ✍️1️⃣0️⃣8️⃣💦🍑💦➡️💦✍️9️⃣7️⃣💦🍑💦🛑 -> linea de codigo entera\
+output: hola\
 
-Como correr.
--Asegurarse de tener instalado python 3
--Agregar algun archivo para probar en ejemplos (tipo txt)
--En el archivo interpreter.py cambiar la variable llamada FILE_TO_RUN por el nombre del archivo el cual se quiere correr
+Como correr.\
+-Asegurarse de tener instalado python 3\
+-Agregar algun archivo para probar en ejemplos (tipo txt)\
+-En el archivo interpreter.py cambiar la variable llamada FILE_TO_RUN por el nombre del archivo el cual se quiere correr\
 -correr el archivo interpreter.py (asegurarse de estar en el directorio src)
--disfrutar
+-disfrutar\
