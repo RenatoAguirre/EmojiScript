@@ -7,6 +7,7 @@ class Machine:
         self.memory: list[int] = [0] * 30000
         self.clipboard: int = 0
         self.commands = commands  # recibe una lista de tuplas, la tupla [0] es el comando y [1] es el valor
+        self.highest_position = 0
 
     def assing_to_memory(self, value: int):
         self.memory[self.current_position] = value
@@ -38,8 +39,23 @@ class Machine:
     def assign_from_clipboard(self):
         self.memory[self.current_position] = self.clipboard
 
-    def run(self):
+    def show_machine(self):
+        print("")
+        print("-----")
+        print("Machine final state: ")
+        print(self.memory[0 : self.highest_position + 1])
+        print(f"Current position: {self.current_position}")
+        print(f"Highest position: {self.highest_position}")
+        print(f"Clipboard: {self.clipboard}")
+        print("-----")
+        print("")
 
+    def change_highest_position(self):
+        if self.current_position > self.highest_position:
+            self.highest_position = self.current_position
+
+    def run(self):
+        print(" ")
         # print(self.commands)
         for command in self.commands:
             t0 = time.time()
@@ -54,6 +70,7 @@ class Machine:
                 self.decrease_memory(command[1])
             elif command[0] == "MOVE_RIGHT":
                 self.move_right()
+                self.change_highest_position()
             elif command[0] == "MOVE_LEFT":
                 self.move_left()
             elif command[0] == "PRINT_NUMBER":
@@ -68,7 +85,11 @@ class Machine:
                 self.erease_memory_at_position()
             elif command[0] == "CODE_END":
                 t1 = time.time()
+
                 print(f"\nFinsished in {t1-t0} seconds...")
+                print("")
+
+                self.show_machine()
             else:
                 print("Command not found")
                 break
