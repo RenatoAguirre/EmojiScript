@@ -11,10 +11,9 @@ Grupo c#
 Para entender este lenguaje es necesario entender que se trata de una lista infinita de numeros. 🗿
 La primera posición es la que más a la izquierda se encuentra, siendo las posiciones siguientes las ubicadas a su derecha.
 A cada una de las posiciones de la lista se le pueden asignar valores numéricos enteros. Comienzan todas en cero.
-A estas posiciones accedemos a traves de un puntero imaginario. 
+A estas posiciones accedemos a traves de un puntero imaginario.
 Este puntero se puede ir moviendo de 1 en 1 hacia la derecha o hacia la izquierda
 Tambien tenemos una variable para poder almacenar un valor, esta se llama portapapeles
-
 
 Comandos:
 
@@ -28,7 +27,7 @@ resta a la posicion (hay que pasarle un numero) ➖
 Asigna un cero a la posición actual de la lista. ‼️
 Cambia la posición a la derecha. ➡️
 Cambia la posición a la izquierda. ⬅️
-Muestra por pantalla el número de la posición actual de la lista. (print numero) 🍆 
+Muestra por pantalla el número de la posición actual de la lista. (print numero) 🍆
 Muestra por pantalla el caracter correspondiente en UNICODE al número de la posición actual de la lista. print (character) 🍑
 (los print printean en linea)
 Copia el contenido de la posición actual de la lista al portapapeles. 🤣
@@ -62,3 +61,10 @@ output: 2
 🛑 termina el codigo
 -> 🔛💦✍️1️⃣0️⃣4️⃣💦🍑💦➡️💦✍️1️⃣1️⃣1️⃣💦🍑💦 ➡️💦 ✍️1️⃣0️⃣8️⃣💦🍑💦➡️💦✍️9️⃣7️⃣💦🍑💦🛑 -> linea de codigo entera
 output: hola
+
+Como correr.
+-Asegurarse de tener instalado python 3
+-Agregar algun archivo para probar en ejemplos (tipo txt)
+-En el archivo interpreter.py cambiar la variable llamada FILE_TO_RUN por el nombre del archivo el cual se quiere correr
+-correr el archivo interpreter.py (asegurarse de estar en el directorio src)
+-disfrutar

@@ -1,31 +1,8 @@
 import unicodedata
 from emoji_script import Machine
 
-_tokens = {
-    "🔛": "CODE_START",
-    "🛑": "CODE_END",
-    "💦": "COMMAND_END",
-    "✍️": "ASSIGNMENT",
-    "➕": "SUM",
-    "➖": "SUBTRACTION",
-    "‼️": "ASSIGN_ZERO",
-    "➡️": "MOVE_RIGHT",
-    "⬅️": "MOVE_LEFT",
-    "🍆": "PRINT_NUMBER",
-    "🍑": "PRINT_CHAR",
-    "🤣": "COPY",
-    "💀": "PASTE",
-    "1️⃣": "1",
-    "2️⃣": "2",
-    "3️⃣": "3",
-    "4️⃣": "4",
-    "5️⃣": "5",
-    "6️⃣": "6",
-    "7️⃣": "7",
-    "8️⃣": "8",
-    "9️⃣": "9",
-    "0️⃣": "0",
-}
+FILE_TO_RUN = "../ejemplos/hola_mundo.txt"
+
 tokens = {
     "\U0001F51B": "CODE_START",
     "\U0001F6D1": "CODE_END",
@@ -115,13 +92,18 @@ def interpret(commands: list[str]):
     ES.run()
 
 
-if __name__ == "__main__":
-    archivo1 = "../ejemplos/hola_mundo.txt"
-    print("corriendo el archivo:", archivo1)
-    commands = read_file(archivo1)
+def run(path: str):
+    print("Running file:", path)
+    commands = read_file(path)
     interpret(commands)
 
-    archivo2 = "../ejemplos/suma.txt"
-    print("corriendo el archivo:", archivo2)
-    commands = read_file(archivo2)
-    interpret(commands)
+
+if __name__ == "__main__":
+    """EJEMPLOS
+    archivo1 = "../ejemplos/hola_mundo.txt"
+    run(archivo1)
+
+
+    run("../ejemplos/suma.txt")
+    """
+    run(FILE_TO_RUN)
